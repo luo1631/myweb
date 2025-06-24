@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="个人作品集展示网站">
+    <meta name="keywords" content="作品集, 设计, 开发, 项目展示">
+    <title>我的作品集</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">首页</a></li>
+                <li><a href="#about">关于</a></li>
+                <li><a href="#personal">个人简介</a></li>
+                <li><a href="#projects">项目</a></li>
+                <li><a href="#contact">联系</a></li>
+                <li class="nav-controls">
+                    <button id="language-toggle-btn" aria-label="切换语言">
+                        <span class="lang-text">EN</span>
+                    </button>
+                    <span class="divider">|</span>
+                    <button id="theme-toggle-btn" aria-label="切换主题">
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="begin-section">
+            <div class="begin-content">
+                <h1>学习与开发</h1>
+                <a href="#projects" class="cta-button">查看作品</a>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>关于我</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>我是一名充满热情的设计师和开发者，专注于创造优秀的用户体验和精美的界面设计。通过结合设计思维和技术实现，我致力于打造既美观又实用的数字产品。</p>
+                    <div class="skills">
+                        <h3>技能专长</h3>
+                        <ul>
+                            <li>后端开发</li>
+                            <li>前端开发</li>
+                            <li>响应式设计</li>
+                            <li>交互设计</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <section id="personal" class="personal-section">
+            <h2>个人简介</h2>
+            <div class="personal-info">
+                <div class="info-item">
+                    <span class="info-label">姓名：</span>
+                    <span class="info-value">罗福庆</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">年龄：</span>
+                    <span class="info-value">20岁</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">所在地：</span>
+                    <span class="info-value">重庆市荣昌区</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">求职意向：</span>
+                    <span class="info-value">AI全栈开发工程师</span>
+                </div>
+            </div>
+
+            <div class="education-timeline">
+                <h3>教育背景</h3>
+                <div class="education-item">
+                    <div class="education-year">2024-~</div>
+                    <div class="education-content">
+                        <h3>信息管理与信息系统</h3>
+                        <h4>西南大学</h4>
+                        <p>本科学历 | 主修课程：程序设计，数据结构与算法，数据库，计算机导论等</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>精选项目</h2>
+            <div class="project-grid">
+                <!-- 项目卡片将通过 JavaScript 动态加载 -->
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>联系我</h2>
+            <div class="contact-info">
+                <div class="info-item">
+                    <span class="info-label">电话：</span>
+                    <span class="info-value">153xxxxxxx</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">邮箱：</span>
+                    <span class="info-value">luoxxxxxxxxx@163.com</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">QQ：</span>
+                    <span class="info-value">2934xxxxxx</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">微信：</span>
+                    <span class="info-value">luoxxxxxxx</span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 个人作品集. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank">GitHub</a>
+                <a href="#" target="_blank">LinkedIn</a>
+                <a href="#" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html> 
